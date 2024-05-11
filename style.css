@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(41, 57, 68);
+    color: white
+}
+
+.resume{
+    color: white;
+    background-color: rgb(71, 114, 143);
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.content{
+    margin-left: auto;
+}
+
+
+@media only screen and (max-width: 600px)
+{
+    .intro-container{
+        flex-direction: column-reverse;
+    }
+}
+
+.Portfolio_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: black;
+}
+
+.con{
+    height: 450px;
+    background-color: rgb(41, 57, 68);
+    color: white
+}
+
+.intro-container{
+    background-color: rgb(41, 57, 68);
+}
+
+.bg-col{
+    background-color: black;
+    margin: 100px;
+}
+
+.expertise {
+    margin-bottom: 20px;
+}
+
+.expertise p {
+    font-weight: bold;
+}
+
+.expertise ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.expertise li {
+    margin: 5px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 576px) {
+    .con{
+        width: 500px
+    }
+}
+
+.edu_head{
+    color: cornsilk;
+}
+
+.holder{
+    border: 2px solid rgb(41, 57, 68);
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px black;
+}
