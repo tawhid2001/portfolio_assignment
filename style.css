@@ -68,9 +68,12 @@ footer{
     border-radius: 5px;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (min-width: 300px) and (max-width: 800px) {
     .con{
         width: 500px
+    }
+    .about{
+        flex-direction: column;
     }
 }
 
